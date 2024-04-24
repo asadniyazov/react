@@ -1,0 +1,89 @@
+.herosection{
+    background: linear-gradient(to right, #457fca, #5691c8);
+    min-height: 600px;
+}
+.herosection_container{
+   padding: 10px 30px 10px 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.herosection_container_text{
+    max-width: 400px;
+    min-height: 338px;
+    padding: 100px;
+    
+}
+.herosection_container_text_h1{
+    margin: 0px 0px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 16px;
+}
+.herosection_container_text_p{
+    color: white;
+    font-size: 14px;
+    max-width: 283px;
+    min-height: 63px;
+    margin: 0px 0px 48px;
+}
+.herosection_container_text_btn{
+    margin: 0px 0px 48px;
+    
+}
+.Contactbtn{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: blue;
+    border-radius: 9px;
+    width: 100px;
+    height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.watchbtn{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+.herosection_container_img{
+    max-width: 456px;
+    min-height: 338px;
+}
+.herosection_container_img1{
+    max-width: 456px;
+    min-height: 338px;
+    border-radius: 6px;
+}
+.Contactbtn_div{
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    margin-right: 30px;
+    border-radius: 9px;
+}
+.Contactbtn_div:hover{
+    cursor: pointer;
+}
+.herosection_container_text_btn{
+    display: flex;
+  
+}
+@media screen and (max-width: 990px){
+    .herosection_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 440px){
+    .herosection_container_img1{
+        max-width: 300px;}
+    .herosection_container_text{
+        padding: 20px;
+    }
+}

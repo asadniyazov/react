@@ -1,0 +1,14 @@
+.Middlesection_container_div_card{
+    max-width: 210px;
+    min-height: 130px;
+}
+.Middlesection_container_div_card_h3{
+    margin: 0px 0px 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Middlesection_container_div_card_p{
+    margin:0px 0px;
+    color: gray;
+    font-size: 14px;
+}

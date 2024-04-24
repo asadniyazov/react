@@ -1,0 +1,31 @@
+.Middlesection_container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 10px 30px 0px 10px;
+    max-width: 1700px;
+    flex-wrap: wrap;
+}
+.Middlesection{
+    min-height: 200px;
+    padding: 112px 0px;
+}
+.Middlesection_container_div_icon{
+    background-color: #52565E1A;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.middlesection_icon{
+    font-size: 20px;
+    color: lightblue;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.Middlesection_container_div{
+    display: flex;
+    margin:48px 0px 0px;
+    padding: 0px 24px;
+}
